@@ -1,0 +1,5925 @@
+{
+  "train": [
+    {
+      "dialog_id": 10618,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Excuse me , does this bus go to the new bookstore ?",
+        "No , you'll have to get off at the bank , and take a No . 50 .",
+        "Thank you . How much is the fare to that stop ?",
+        "One dollar .",
+        "How many stops are there ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Two stops after this one .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10618,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No , you'll have to get off at the bank , and take a No . 50 .",
+        "Thank you . How much is the fare to that stop ?",
+        "One dollar .",
+        "How many stops are there ?",
+        "Two stops after this one ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Could you please tell me when we get there ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10618,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Thank you . How much is the fare to that stop ?",
+        "One dollar .",
+        "How many stops are there ?",
+        "Two stops after this one .",
+        "Could you please tell me when we get there ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Sure .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10618,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "One dollar .",
+        "How many stops are there ?",
+        "Two stops after this one .",
+        "Could you please tell me when we get there ?",
+        "Sure ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "By the way , do I need a transfer again after No . 50 ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10618,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "How many stops are there ?",
+        "Two stops after this one .",
+        "Could you please tell me when we get there ?",
+        "Sure .",
+        "By the way , do I need a transfer again after No . 50 ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , a No . 50 will take you right there .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10618,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Two stops after this one .",
+        "Could you please tell me when we get there ?",
+        "Sure .",
+        "By the way , do I need a transfer again after No . 50 ?",
+        "No , a No . 50 will take you right there ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Can you tell me about some good deals on produce ?",
+        "The mangoes are on sale today .",
+        "What exactly are mangoes ?",
+        "They have yellowish red skin . It's a fruit with one big seed .",
+        "Is the seed edible ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Maybe if you were a parrot . I wouldn't recommend it .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "The mangoes are on sale today .",
+        "What exactly are mangoes ?",
+        "They have yellowish red skin . It's a fruit with one big seed .",
+        "Is the seed edible ?",
+        "Maybe if you were a parrot . I wouldn't recommend it ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "How much does a mango cost ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What exactly are mangoes ?",
+        "They have yellowish red skin . It's a fruit with one big seed .",
+        "Is the seed edible ?",
+        "Maybe if you were a parrot . I wouldn't recommend it .",
+        "How much does a mango cost ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Normally , they're $ 2 each . Today , they're only $ 1 each .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "They have yellowish red skin . It's a fruit with one big seed .",
+        "Is the seed edible ?",
+        "Maybe if you were a parrot . I wouldn't recommend it .",
+        "How much does a mango cost ?",
+        "Normally , they're $ 2 each . Today , they're only $ 1 each ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Maybe I won't like the taste .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Is the seed edible ?",
+        "Maybe if you were a parrot . I wouldn't recommend it .",
+        "How much does a mango cost ?",
+        "Normally , they're $ 2 each . Today , they're only $ 1 each .",
+        "Maybe I won't like the taste ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It's hard to describe . They're sweet , but also sort of citrusy .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Maybe if you were a parrot . I wouldn't recommend it .",
+        "How much does a mango cost ?",
+        "Normally , they're $ 2 each . Today , they're only $ 1 each .",
+        "Maybe I won't like the taste .",
+        "It's hard to describe . They're sweet , but also sort of citrusy ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "How do I tell the difference between a ripe one and an unripe one ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "How much does a mango cost ?",
+        "Normally , they're $ 2 each . Today , they're only $ 1 each .",
+        "Maybe I won't like the taste .",
+        "It's hard to describe . They're sweet , but also sort of citrusy .",
+        "How do I tell the difference between a ripe one and an unripe one ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "They're similar to an avocado . When the outside feels soft , they're ripe .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 12,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Normally , they're $ 2 each . Today , they're only $ 1 each .",
+        "Maybe I won't like the taste .",
+        "It's hard to describe . They're sweet , but also sort of citrusy .",
+        "How do I tell the difference between a ripe one and an unripe one ?",
+        "They're similar to an avocado . When the outside feels soft , they're ripe ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Where do most of them come from ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7165,
+      "utt_id": 13,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Maybe I won't like the taste .",
+        "It's hard to describe . They're sweet , but also sort of citrusy .",
+        "How do I tell the difference between a ripe one and an unripe one ?",
+        "They're similar to an avocado . When the outside feels soft , they're ripe .",
+        "Where do most of them come from ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "These are from Mexico .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What's for dinner tonight ?",
+        "It's whatever you're planning on cooking .",
+        "You're not going to cook ?",
+        "No , I always cook .",
+        "Yeah , and I love your cooking ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Don't give me that . If you're hungry , then cook dinner .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "It's whatever you're planning on cooking .",
+        "You're not going to cook ?",
+        "No , I always cook .",
+        "Yeah , and I love your cooking .",
+        "Don't give me that . If you're hungry , then cook dinner ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "You're being serious ?",
+      "target_intent": "question",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "You're not going to cook ?",
+        "No , I always cook .",
+        "Yeah , and I love your cooking .",
+        "Don't give me that . If you're hungry , then cook dinner .",
+        "You're being serious ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "Look , I'm really tired tonight . I don't feel like cooking dinner .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No , I always cook .",
+        "Yeah , and I love your cooking .",
+        "Don't give me that . If you're hungry , then cook dinner .",
+        "You're being serious ?",
+        "Look , I'm really tired tonight . I don't feel like cooking dinner ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "Okay , I'll make dinner tonight .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Yeah , and I love your cooking .",
+        "Don't give me that . If you're hungry , then cook dinner .",
+        "You're being serious ?",
+        "Look , I'm really tired tonight . I don't feel like cooking dinner .",
+        "Okay , I'll make dinner tonight ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "question",
+        "inform",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you . I'm going to bed .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Don't give me that . If you're hungry , then cook dinner .",
+        "You're being serious ?",
+        "Look , I'm really tired tonight . I don't feel like cooking dinner .",
+        "Okay , I'll make dinner tonight .",
+        "Thank you . I'm going to bed ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "commissive",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Do you want me to wake you up when dinner is ready ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8693,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "You're being serious ?",
+        "Look , I'm really tired tonight . I don't feel like cooking dinner .",
+        "Okay , I'll make dinner tonight .",
+        "Thank you . I'm going to bed .",
+        "Do you want me to wake you up when dinner is ready ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "commissive",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Yes , please .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5574,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I'm thirsty . Pull over to that store , I'll buy some drinks .",
+        "I'm afraid I can't . Parking is not allowed here .",
+        "Oh , that's too bad . Where can you park around here ?",
+        "There is a square in front of us , we can park the car there .",
+        "Is a shop there ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "sadness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I'm not sure , you know I'm not familiar with the city , too .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5574,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I'm afraid I can't . Parking is not allowed here .",
+        "Oh , that's too bad . Where can you park around here ?",
+        "There is a square in front of us , we can park the car there .",
+        "Is a shop there ?",
+        "I'm not sure , you know I'm not familiar with the city , too ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "sadness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Just stop here for a moment . The police will not notice .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5574,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Oh , that's too bad . Where can you park around here ?",
+        "There is a square in front of us , we can park the car there .",
+        "Is a shop there ?",
+        "I'm not sure , you know I'm not familiar with the city , too .",
+        "Just stop here for a moment . The police will not notice ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , that's too risky .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5574,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "There is a square in front of us , we can park the car there .",
+        "Is a shop there ?",
+        "I'm not sure , you know I'm not familiar with the city , too .",
+        "Just stop here for a moment . The police will not notice .",
+        "No , that's too risky ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "All right . Let's go to the square to have a look .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10919,
+      "utt_id": 5,
+      "topic": "tourism",
+      "cxt": [
+        "Hello , Miss . I want to listen to the music . Could you tell me how to adjust it ?",
+        "Certainly . There are several kinds of music . What do you like to listen to ?",
+        "I like listening to the classical music .",
+        "OK , here it is . Can you hear it ?",
+        "Yes . Which channel is for opera ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "The last one clockwise .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10919,
+      "utt_id": 6,
+      "topic": "tourism",
+      "cxt": [
+        "Certainly . There are several kinds of music . What do you like to listen to ?",
+        "I like listening to the classical music .",
+        "OK , here it is . Can you hear it ?",
+        "Yes . Which channel is for opera ?",
+        "The last one clockwise ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Oh , I have got it . How nice are the singers singing !",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "Hello !",
+        "Is Petti there ?",
+        "I'm sorry , I'm afraid you've dialed the wrong number . There is no Petti here .",
+        "Wrong number ? Are you sure ? I called yesterday and she was there .",
+        "I'm sure you have the wrong number . This one has been my number for more than 20 years ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "directive",
+        "commissive",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "That's impossible . I remember the number clearly . Isn't this 763-4565 ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "Is Petti there ?",
+        "I'm sorry , I'm afraid you've dialed the wrong number . There is no Petti here .",
+        "Wrong number ? Are you sure ? I called yesterday and she was there .",
+        "I'm sure you have the wrong number . This one has been my number for more than 20 years .",
+        "That's impossible . I remember the number clearly . Isn't this 763-4565 ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "commissive",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , It isn't . It's 736-4565 . It seems you've misdialed .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "I'm sorry , I'm afraid you've dialed the wrong number . There is no Petti here .",
+        "Wrong number ? Are you sure ? I called yesterday and she was there .",
+        "I'm sure you have the wrong number . This one has been my number for more than 20 years .",
+        "That's impossible . I remember the number clearly . Isn't this 763-4565 ?",
+        "No , It isn't . It's 736-4565 . It seems you've misdialed ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Really ? I ' m so sorry I bothered you . I ' ll try again .",
+      "target_intent": "inform",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 8,
+      "topic": "work",
+      "cxt": [
+        "Wrong number ? Are you sure ? I called yesterday and she was there .",
+        "I'm sure you have the wrong number . This one has been my number for more than 20 years .",
+        "That's impossible . I remember the number clearly . Isn't this 763-4565 ?",
+        "No , It isn't . It's 736-4565 . It seems you've misdialed .",
+        "Really ? I ' m so sorry I bothered you . I ' ll try again ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "That's all right . This sort of thing happens all the time to everyone .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 9,
+      "topic": "work",
+      "cxt": [
+        "I'm sure you have the wrong number . This one has been my number for more than 20 years .",
+        "That's impossible . I remember the number clearly . Isn't this 763-4565 ?",
+        "No , It isn't . It's 736-4565 . It seems you've misdialed .",
+        "Really ? I ' m so sorry I bothered you . I ' ll try again .",
+        "That's all right . This sort of thing happens all the time to everyone ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "Yeah . I guess it does . Sorry again for bothering you .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11041,
+      "utt_id": 10,
+      "topic": "work",
+      "cxt": [
+        "That's impossible . I remember the number clearly . Isn't this 763-4565 ?",
+        "No , It isn't . It's 736-4565 . It seems you've misdialed .",
+        "Really ? I ' m so sorry I bothered you . I ' ll try again .",
+        "That's all right . This sort of thing happens all the time to everyone .",
+        "Yeah . I guess it does . Sorry again for bothering you ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No worries .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10976,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Ouch ! The water's too hot !",
+        "Get in slowly , sweetie . You'll get used to it . I'm gonna go and make you some chicken soup .",
+        "I'm not hungry , Mom .",
+        "I know you don't have an appetite , but you need to eat something . You'll get too weak if you don't eat .",
+        "Oh ... I'm sweating already . It's so hot . I can feel it boiling ! Can I get out yet ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "anger",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "anger"
+      ],
+      "target_response": "That's a good sign . But just soak a little longer , OK ?",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5738,
+      "utt_id": 5,
+      "topic": "finance",
+      "cxt": [
+        "are you ready to go to the bank ?",
+        "sure , what do you need to do there ?",
+        "there ' s problem with my bank statement . There ' s a mistake on it . I also need to withdraw some money form the ATM .",
+        "I have to exchange some money .",
+        "that ' s right . You ' re going away next week ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I also want to see if my salary has been paid into my bank account . There was a problem last week .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5738,
+      "utt_id": 6,
+      "topic": "finance",
+      "cxt": [
+        "sure , what do you need to do there ?",
+        "there ' s problem with my bank statement . There ' s a mistake on it . I also need to withdraw some money form the ATM .",
+        "I have to exchange some money .",
+        "that ' s right . You ' re going away next week .",
+        "I also want to see if my salary has been paid into my bank account . There was a problem last week ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I have to pay my credit bill too . If I don ' t pay it soon , the credit card company will charge me interest .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5738,
+      "utt_id": 7,
+      "topic": "finance",
+      "cxt": [
+        "there ' s problem with my bank statement . There ' s a mistake on it . I also need to withdraw some money form the ATM .",
+        "I have to exchange some money .",
+        "that ' s right . You ' re going away next week .",
+        "I also want to see if my salary has been paid into my bank account . There was a problem last week .",
+        "I have to pay my credit bill too . If I don ' t pay it soon , the credit card company will charge me interest ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "their interest rates are usually quite high . It ' s a good idea to pay off your credit card debts before they attract interest .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8101,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Excuse me , what material is it ?",
+        "Rhaki . Do you want some ?",
+        "No , where are the cotton cloths ?",
+        "I will show you .",
+        "What is the shrink rate after washing ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Less than 5 % . It's quite durable .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 5,
+      "topic": "school_life",
+      "cxt": [
+        "Good morning . Mrs . Smith .",
+        "Good morning ! Can you help me , please ? I'm looking for some books for my mother .",
+        "Well , what kind of books does she like ?",
+        "She's very fond of detective stories ?",
+        "I see . Has she read any detective stories ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Oh , yes !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 6,
+      "topic": "school_life",
+      "cxt": [
+        "Good morning ! Can you help me , please ? I'm looking for some books for my mother .",
+        "Well , what kind of books does she like ?",
+        "She's very fond of detective stories ?",
+        "I see . Has she read any detective stories ?",
+        "Oh , yes !"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Do you know if she's read this one ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 7,
+      "topic": "school_life",
+      "cxt": [
+        "Well , what kind of books does she like ?",
+        "She's very fond of detective stories ?",
+        "I see . Has she read any detective stories ?",
+        "Oh , yes !",
+        "Do you know if she's read this one ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I'm not sure , but she probably won't remember if she has ! She's very forgetful !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 8,
+      "topic": "school_life",
+      "cxt": [
+        "She's very fond of detective stories ?",
+        "I see . Has she read any detective stories ?",
+        "Oh , yes !",
+        "Do you know if she's read this one ?",
+        "I'm not sure , but she probably won't remember if she has ! She's very forgetful !"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Ah ! She has a bad memory . How old is she ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 9,
+      "topic": "school_life",
+      "cxt": [
+        "I see . Has she read any detective stories ?",
+        "Oh , yes !",
+        "Do you know if she's read this one ?",
+        "I'm not sure , but she probably won't remember if she has ! She's very forgetful !",
+        "Ah ! She has a bad memory . How old is she ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "She's eighty-seven .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 10,
+      "topic": "school_life",
+      "cxt": [
+        "Oh , yes !",
+        "Do you know if she's read this one ?",
+        "I'm not sure , but she probably won't remember if she has ! She's very forgetful !",
+        "Ah ! She has a bad memory . How old is she ?",
+        "She's eighty-seven ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I suggest you take this book . It's very exciting .",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2930,
+      "utt_id": 11,
+      "topic": "school_life",
+      "cxt": [
+        "Do you know if she's read this one ?",
+        "I'm not sure , but she probably won't remember if she has ! She's very forgetful !",
+        "Ah ! She has a bad memory . How old is she ?",
+        "She's eighty-seven .",
+        "I suggest you take this book . It's very exciting ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Thank you . That's a good idea . she likes exciting books . Can you suggest another one ?",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 439,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Merry Christmas , Bill !",
+        "Merry Christmas . Steven !",
+        "What do you want to do to celebrate Christmas ?",
+        "I'll have supper with my girlfriend and go shopping . What about you ?",
+        "I'll go to church first and then go to a Christmas party . Would you like to come ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I'd love to . But I am going to meet my girlfriend right now . See you later .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 439,
+      "utt_id": 6,
+      "topic": "relationship",
+      "cxt": [
+        "Merry Christmas . Steven !",
+        "What do you want to do to celebrate Christmas ?",
+        "I'll have supper with my girlfriend and go shopping . What about you ?",
+        "I'll go to church first and then go to a Christmas party . Would you like to come ?",
+        "I'd love to . But I am going to meet my girlfriend right now . See you later ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "question",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "See you .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I really need to apply for a driving permit .",
+        "Do you have your ID with you ?",
+        "I may have left my ID in my car .",
+        "Well , I need your ID and $ 27 .",
+        "I'll go get it really quick ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Please hurry .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Do you have your ID with you ?",
+        "I may have left my ID in my car .",
+        "Well , I need your ID and $ 27 .",
+        "I'll go get it really quick .",
+        "Please hurry ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Here it is .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I may have left my ID in my car .",
+        "Well , I need your ID and $ 27 .",
+        "I'll go get it really quick .",
+        "Please hurry .",
+        "Here it is ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you very much . Please fill out this paperwork .",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Well , I need your ID and $ 27 .",
+        "I'll go get it really quick .",
+        "Please hurry .",
+        "Here it is .",
+        "Thank you very much . Please fill out this paperwork ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "I need to use a pen .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I'll go get it really quick .",
+        "Please hurry .",
+        "Here it is .",
+        "Thank you very much . Please fill out this paperwork .",
+        "I need to use a pen ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Here you go .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Please hurry .",
+        "Here it is .",
+        "Thank you very much . Please fill out this paperwork .",
+        "I need to use a pen .",
+        "Here you go ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you very much .",
+      "target_intent": "commissive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 7887,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Here it is .",
+        "Thank you very much . Please fill out this paperwork .",
+        "I need to use a pen .",
+        "Here you go .",
+        "Thank you very much ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Thank you . Now turn in your application at Window B .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11113,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Hello , I bought a pen in your shop just before .",
+        "Yes , thank you very much .",
+        "Now I came back to the hotel and try to show it to my friend , the pen is broken , I am afraid .",
+        "Oh , is it ?",
+        "Would you change it to a new one ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes , certainly , you have the receipt ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11113,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Yes , thank you very much .",
+        "Now I came back to the hotel and try to show it to my friend , the pen is broken , I am afraid .",
+        "Oh , is it ?",
+        "Would you change it to a new one ?",
+        "Yes , certainly , you have the receipt ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes , I do .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11113,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Now I came back to the hotel and try to show it to my friend , the pen is broken , I am afraid .",
+        "Oh , is it ?",
+        "Would you change it to a new one ?",
+        "Yes , certainly , you have the receipt ?",
+        "Yes , I do ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Then would you kindly come to our shop with the receipt by 10 o'clock , we'll replace it .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 11113,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Oh , is it ?",
+        "Would you change it to a new one ?",
+        "Yes , certainly , you have the receipt ?",
+        "Yes , I do .",
+        "Then would you kindly come to our shop with the receipt by 10 o'clock , we'll replace it ."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "question",
+        "inform",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you so much !",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 5,
+      "topic": "school_life",
+      "cxt": [
+        "What can I do for you today ?",
+        "I need to return a book .",
+        "Can I do anything else for you ?",
+        "I want to check this magazine out .",
+        "We don ' t allow people to check out magazines ."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "question",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Why not ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 6,
+      "topic": "school_life",
+      "cxt": [
+        "I need to return a book .",
+        "Can I do anything else for you ?",
+        "I want to check this magazine out .",
+        "We don ' t allow people to check out magazines .",
+        "Why not ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It ' s just a policy of ours .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 7,
+      "topic": "school_life",
+      "cxt": [
+        "Can I do anything else for you ?",
+        "I want to check this magazine out .",
+        "We don ' t allow people to check out magazines .",
+        "Why not ?",
+        "It ' s just a policy of ours ."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "So what am I allowed to check out ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 8,
+      "topic": "school_life",
+      "cxt": [
+        "I want to check this magazine out .",
+        "We don ' t allow people to check out magazines .",
+        "Why not ?",
+        "It ' s just a policy of ours .",
+        "So what am I allowed to check out ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You may check out books or videos .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 9,
+      "topic": "school_life",
+      "cxt": [
+        "We don ' t allow people to check out magazines .",
+        "Why not ?",
+        "It ' s just a policy of ours .",
+        "So what am I allowed to check out ?",
+        "You may check out books or videos ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I need to check out this magazine .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 10,
+      "topic": "school_life",
+      "cxt": [
+        "Why not ?",
+        "It ' s just a policy of ours .",
+        "So what am I allowed to check out ?",
+        "You may check out books or videos .",
+        "I need to check out this magazine ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You will have to just read it in the library .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2314,
+      "utt_id": 11,
+      "topic": "school_life",
+      "cxt": [
+        "It ' s just a policy of ours .",
+        "So what am I allowed to check out ?",
+        "You may check out books or videos .",
+        "I need to check out this magazine .",
+        "You will have to just read it in the library ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "That doesn ' t make any sense .",
+      "target_intent": "inform",
+      "target_emotion": "sadness"
+    },
+    {
+      "dialog_id": 6014,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Hi , Juliet , I'm treating Mr . Li and his team members from Galp to dinner tomorrow evening . Where do you think I should take them ?",
+        "Well , Mr . Li has very good taste in wine , and Galp is one of the biggest clients . I suggest you take them to a decent French restaurant . Make sure you make a very good impression .",
+        "That's a good idea . Which one do you recommend ? The Pairszone ?",
+        "Or Lapis . They are both listed this year glory magazine for have most of frantic Fetch cuisine in town . But I heard Lapis has a better wine selection .",
+        "We'll go to the place . Could you book a table for 4 at 7 PM ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Sure .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5111,
+      "utt_id": 5,
+      "topic": "finance",
+      "cxt": [
+        "May I help you ?",
+        "Yes , could you cash these travaler's check for me , please ?",
+        "Sure . Please sign your name here ... and here .",
+        "Ok , here you are .",
+        "Thanks . How would you like them ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It doesn't matter .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What are you going to eat with your sandwich ?",
+        "I think I'm going to eat a piece of fruit .",
+        "What kind do you like ?",
+        "I really like apples and grapes .",
+        "What kind of apples do you like ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "I love green apples .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I think I'm going to eat a piece of fruit .",
+        "What kind do you like ?",
+        "I really like apples and grapes .",
+        "What kind of apples do you like ?",
+        "I love green apples ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "I don't like green apples .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What kind do you like ?",
+        "I really like apples and grapes .",
+        "What kind of apples do you like ?",
+        "I love green apples .",
+        "I don't like green apples ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Really ? Why not ?",
+      "target_intent": "question",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I really like apples and grapes .",
+        "What kind of apples do you like ?",
+        "I love green apples .",
+        "I don't like green apples .",
+        "Really ? Why not ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "Green apples are too sour for me .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What kind of apples do you like ?",
+        "I love green apples .",
+        "I don't like green apples .",
+        "Really ? Why not ?",
+        "Green apples are too sour for me ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "So , you like red apples better ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I love green apples .",
+        "I don't like green apples .",
+        "Really ? Why not ?",
+        "Green apples are too sour for me .",
+        "So , you like red apples better ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yeah , I love red apples .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 10601,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I don't like green apples .",
+        "Really ? Why not ?",
+        "Green apples are too sour for me .",
+        "So , you like red apples better ?",
+        "Yeah , I love red apples ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "I think green apples are a lot better .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "John , you have done a good job . Our new series computer is appreciated by the guests . They intend to sign contracts with our company . You really did a good job .",
+        "Thank you . I can't imagine the design of the new computer is so popular among computer users .",
+        "Hah , as the sale department director of our team , you are the best .",
+        "I am flattered . But I am not sure whether the manager is satisfied with it . She asked me to her office .",
+        "Why not ? You've done so well for the company . She should give you a prize ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I feel nervous when I face her . She looks so serious when we have a conversation all the time .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "Thank you . I can't imagine the design of the new computer is so popular among computer users .",
+        "Hah , as the sale department director of our team , you are the best .",
+        "I am flattered . But I am not sure whether the manager is satisfied with it . She asked me to her office .",
+        "Why not ? You've done so well for the company . She should give you a prize .",
+        "I feel nervous when I face her . She looks so serious when we have a conversation all the time ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Come on ! What are you nervous about ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "Hah , as the sale department director of our team , you are the best .",
+        "I am flattered . But I am not sure whether the manager is satisfied with it . She asked me to her office .",
+        "Why not ? You've done so well for the company . She should give you a prize .",
+        "I feel nervous when I face her . She looks so serious when we have a conversation all the time .",
+        "Come on ! What are you nervous about ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It is said that the sales for the new computer did not meet the expectation .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 8,
+      "topic": "work",
+      "cxt": [
+        "I am flattered . But I am not sure whether the manager is satisfied with it . She asked me to her office .",
+        "Why not ? You've done so well for the company . She should give you a prize .",
+        "I feel nervous when I face her . She looks so serious when we have a conversation all the time .",
+        "Come on ! What are you nervous about ?",
+        "It is said that the sales for the new computer did not meet the expectation ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "But the sale number is close to the predicted amount .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 9,
+      "topic": "work",
+      "cxt": [
+        "Why not ? You've done so well for the company . She should give you a prize .",
+        "I feel nervous when I face her . She looks so serious when we have a conversation all the time .",
+        "Come on ! What are you nervous about ?",
+        "It is said that the sales for the new computer did not meet the expectation .",
+        "But the sale number is close to the predicted amount ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I'm still nervous . I don't know what to say to the manager . I always feel ill at ease in that kind of place .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5401,
+      "utt_id": 10,
+      "topic": "work",
+      "cxt": [
+        "I feel nervous when I face her . She looks so serious when we have a conversation all the time .",
+        "Come on ! What are you nervous about ?",
+        "It is said that the sales for the new computer did not meet the expectation .",
+        "But the sale number is close to the predicted amount .",
+        "I'm still nervous . I don't know what to say to the manager . I always feel ill at ease in that kind of place ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Take it easy . Be confident . I'm sure you can do it .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6061,
+      "utt_id": 5,
+      "topic": "tourism",
+      "cxt": [
+        "Speed Airlines Reservation . May I help you ?",
+        "Yes . Do you have any flight to Paris on 15th ? I want one leaving in the afternoon .",
+        "Yes . Flight DP336 leaves at 15:16 . Is that all right ?",
+        "Is it a direct flight ?",
+        "No , Sir . It has an hour layover in London ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Well , I don't think I want it .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5657,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "Hi , Dave . You're early .",
+        "So you knew it was me ?",
+        "I had an idea .",
+        "Look , before we get into the secret admirer thing , I want to talk to you about WebTracker .",
+        "I'm sorry . I know you feel betrayed ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "So you're really planning to quit invoking and switch over to WebTracker ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5657,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "So you knew it was me ?",
+        "I had an idea .",
+        "Look , before we get into the secret admirer thing , I want to talk to you about WebTracker .",
+        "I'm sorry . I know you feel betrayed .",
+        "So you're really planning to quit invoking and switch over to WebTracker ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "My mind is made up .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8699,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Dear , can you drive me to the clinic ?",
+        "I'm afraid I can't .",
+        "Why ?",
+        "Well , my car won't start . I don't know what's the matter with it .",
+        "Could it be the battery ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "sadness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , I don't think it could be . I checked the battery two days ago . It must be other problems .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8699,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I'm afraid I can't .",
+        "Why ?",
+        "Well , my car won't start . I don't know what's the matter with it .",
+        "Could it be the battery ?",
+        "No , I don't think it could be . I checked the battery two days ago . It must be other problems ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "sadness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Well , I suppose it could be the gas .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8699,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Why ?",
+        "Well , my car won't start . I don't know what's the matter with it .",
+        "Could it be the battery ?",
+        "No , I don't think it could be . I checked the battery two days ago . It must be other problems .",
+        "Well , I suppose it could be the gas ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , there is plenty of gas . I filled it up yesterday .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8699,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Well , my car won't start . I don't know what's the matter with it .",
+        "Could it be the battery ?",
+        "No , I don't think it could be . I checked the battery two days ago . It must be other problems .",
+        "Well , I suppose it could be the gas .",
+        "No , there is plenty of gas . I filled it up yesterday ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Perhaps it's the starter then ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 8699,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Could it be the battery ?",
+        "No , I don't think it could be . I checked the battery two days ago . It must be other problems .",
+        "Well , I suppose it could be the gas .",
+        "No , there is plenty of gas . I filled it up yesterday .",
+        "Perhaps it's the starter then ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes , that's possible .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "have you thought of moving at all Sarah ?",
+        "we ' Ve thought about it , but my husband and I can ' t afford it right now . The only thing we could afford would be living in the slums , which is something I don ' t want to do .",
+        "buying a house can be expensive , but there are ways to find cheaper houses .",
+        "like what ?",
+        "well , sometimes the city auctions off houses to the community . You ' d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "that ' s a good idea . Do you know anyone who has done that before ?",
+      "target_intent": "question",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "we ' Ve thought about it , but my husband and I can ' t afford it right now . The only thing we could afford would be living in the slums , which is something I don ' t want to do .",
+        "buying a house can be expensive , but there are ways to find cheaper houses .",
+        "like what ?",
+        "well , sometimes the city auctions off houses to the community . You ' d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way .",
+        "that ' s a good idea . Do you know anyone who has done that before ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "buying a house can be expensive , but there are ways to find cheaper houses .",
+        "like what ?",
+        "well , sometimes the city auctions off houses to the community . You ' d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way .",
+        "that ' s a good idea . Do you know anyone who has done that before ?",
+        "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "is the house pretty run-down .",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "like what ?",
+        "well , sometimes the city auctions off houses to the community . You ' d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way .",
+        "that ' s a good idea . Do you know anyone who has done that before ?",
+        "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it .",
+        "is the house pretty run-down ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "well , sometimes the city auctions off houses to the community . You ' d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way .",
+        "that ' s a good idea . Do you know anyone who has done that before ?",
+        "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it .",
+        "is the house pretty run-down .",
+        "not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "was it very old house ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "that ' s a good idea . Do you know anyone who has done that before ?",
+        "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it .",
+        "is the house pretty run-down .",
+        "not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her .",
+        "was it very old house ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "it was about 75 years old . There were a few repairs that needed doing , but it didn ' t take a lot of money or time .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "sure , my sister-in-law and her husband just bought a house that way . They ' re pretty satisfied with it .",
+        "is the house pretty run-down .",
+        "not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her .",
+        "was it very old house ?",
+        "it was about 75 years old . There were a few repairs that needed doing , but it didn ' t take a lot of money or time ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "is it in a good location ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5641,
+      "utt_id": 12,
+      "topic": "ordinary_life",
+      "cxt": [
+        "is the house pretty run-down .",
+        "not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her .",
+        "was it very old house ?",
+        "it was about 75 years old . There were a few repairs that needed doing , but it didn ' t take a lot of money or time .",
+        "is it in a good location ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "the area can be a bit rough in the evenings , but the neighbors watch out for each other , so it ' s ok .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "( Bob groans . ) What's the matter . Bob ?",
+        "I think it's my ankle .",
+        "What happened ?",
+        "One of my snowshoes got caught on a rock .",
+        "Can you stand ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I don't think so . It ' s kind of sore .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I think it's my ankle .",
+        "What happened ?",
+        "One of my snowshoes got caught on a rock .",
+        "Can you stand ?",
+        "I don't think so . It ' s kind of sore ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "We'll have to get you to a hospital for an X-ray .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What happened ?",
+        "One of my snowshoes got caught on a rock .",
+        "Can you stand ?",
+        "I don't think so . It ' s kind of sore .",
+        "We'll have to get you to a hospital for an X-ray ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Is that really necessary ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "One of my snowshoes got caught on a rock .",
+        "Can you stand ?",
+        "I don't think so . It ' s kind of sore .",
+        "We'll have to get you to a hospital for an X-ray .",
+        "Is that really necessary ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It may be worse than it seems . How's it feel ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Can you stand ?",
+        "I don't think so . It ' s kind of sore .",
+        "We'll have to get you to a hospital for an X-ray .",
+        "Is that really necessary ?",
+        "It may be worse than it seems . How's it feel ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "About the same .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I don't think so . It ' s kind of sore .",
+        "We'll have to get you to a hospital for an X-ray .",
+        "Is that really necessary ?",
+        "It may be worse than it seems . How's it feel ?",
+        "About the same ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "question",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Someone will be out to take a look any minute now .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "We'll have to get you to a hospital for an X-ray .",
+        "Is that really necessary ?",
+        "It may be worse than it seems . How's it feel ?",
+        "About the same .",
+        "Someone will be out to take a look any minute now ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Should we be here , Alice ? I don't think it's that serious .",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 12,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Is that really necessary ?",
+        "It may be worse than it seems . How's it feel ?",
+        "About the same .",
+        "Someone will be out to take a look any minute now .",
+        "Should we be here , Alice ? I don't think it's that serious ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Of course ! It's the sort of thing a hospital emergency ward is for . Will we have to wait much longer ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9817,
+      "utt_id": 13,
+      "topic": "ordinary_life",
+      "cxt": [
+        "It may be worse than it seems . How's it feel ?",
+        "About the same .",
+        "Someone will be out to take a look any minute now .",
+        "Should we be here , Alice ? I don't think it's that serious .",
+        "Of course ! It's the sort of thing a hospital emergency ward is for . Will we have to wait much longer ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I hope not . It isn't that busy .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 390,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Hi ! My name is Mike .",
+        "Hi ! I'm Nancy . Nice to meet you .",
+        "Nice to meet you , too .",
+        "Where are you from ?",
+        "I'm from Shanghai . And you ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "happiness",
+        "happiness",
+        "happiness"
+      ],
+      "target_response": "I'm from Chicago .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 5,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "... Now that we have been over the gory details of our disastrous first quarter , Ed ! Give us some good news . How are things looking for us in terms sales this month ?",
+        "Uh well ... would you like the bad news first or the really bad news ?",
+        "What ? Ed , don ' t tell me you only have bad news !",
+        "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "For crying out loud ... How fast are we losing money ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "anger"
+      ],
+      "target_response": "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 6,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "Uh well ... would you like the bad news first or the really bad news ?",
+        "What ? Ed , don ' t tell me you only have bad news !",
+        "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "For crying out loud ... How fast are we losing money ?",
+        "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "anger",
+        "no_emotion"
+      ],
+      "target_response": "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+      "target_intent": "question",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 7,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "What ? Ed , don ' t tell me you only have bad news !",
+        "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "For crying out loud ... How fast are we losing money ?",
+        "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "What ! Geez ! How could this have happened ? So what ' s the bad news ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "anger",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 8,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "Well sir , our sales have dropped , no plunged , fifty percent in the past month alone . We are currently overstocked and overstaffed and our profits refalling fast . The market is in recession and we have no way of moving our inventory , or getting rid of our staff . If we consider redundancies , it would cost us a fortune because of the new regulations governing compensation packages . It ' s a real mess .",
+        "For crying out loud ... How fast are we losing money ?",
+        "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "anger",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+      "target_intent": "inform",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 9,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "For crying out loud ... How fast are we losing money ?",
+        "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "anger",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 10,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "Um ... how can I put this ? Let ' s just say that at this pace , we will be filing for Chapter eleven in less than three months .",
+        "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "We tried that , sir . The factory has gone under and the owner apparently has fled the country ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "We ' re doomed !",
+      "target_intent": "inform",
+      "target_emotion": "anger"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 11,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "What ! Geez ! How could this have happened ? So what ' s the bad news ?",
+        "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+        "We ' re doomed !"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "anger"
+      ],
+      "target_response": "There is some really good news though !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 12,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "Oh , that ' s the really bad news . Our supplier suffered QC problems and , well , half of our production is faulty . We ' re going to have to recall all itemssold in the last quarter . And the worst part ? We ' re going to have to shoulder this cost .",
+        "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+        "We ' re doomed !",
+        "There is some really good news though !"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "anger",
+        "no_emotion"
+      ],
+      "target_response": "Really ? What !",
+      "target_intent": "inform",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 1954,
+      "utt_id": 13,
+      "topic": "attitude_and_emotion",
+      "cxt": [
+        "Are you joking ? Get the supplier on the line now ! They have to assume the costs of this mess !",
+        "We tried that , sir . The factory has gone under and the owner apparently has fled the country .",
+        "We ' re doomed !",
+        "There is some really good news though !",
+        "Really ? What !"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "anger",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "I got offered a new job !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Let's see now . Cut the potatoes into small cubes .",
+        "Yes , but don't cut them yet . Wait until they cool . Where is the big plastic bowl ?",
+        "On the bottom shelf in the cupboard under the sink .",
+        "What's Donna like , by the way ?",
+        "Donna ? Well . She is about 20 . She is very lovely and I think you will like her . What about Paul ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Oh , Paul is very easy-going and friendly .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Yes , but don't cut them yet . Wait until they cool . Where is the big plastic bowl ?",
+        "On the bottom shelf in the cupboard under the sink .",
+        "What's Donna like , by the way ?",
+        "Donna ? Well . She is about 20 . She is very lovely and I think you will like her . What about Paul ?",
+        "Oh , Paul is very easy-going and friendly ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "happiness"
+      ],
+      "target_response": "Could you get me the pepper from the cupboard ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "On the bottom shelf in the cupboard under the sink .",
+        "What's Donna like , by the way ?",
+        "Donna ? Well . She is about 20 . She is very lovely and I think you will like her . What about Paul ?",
+        "Oh , Paul is very easy-going and friendly .",
+        "Could you get me the pepper from the cupboard ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Yes , sure . Which cupboard is it in ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What's Donna like , by the way ?",
+        "Donna ? Well . She is about 20 . She is very lovely and I think you will like her . What about Paul ?",
+        "Oh , Paul is very easy-going and friendly .",
+        "Could you get me the pepper from the cupboard ?",
+        "Yes , sure . Which cupboard is it in ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It's in the small one beside the cooker .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Donna ? Well . She is about 20 . She is very lovely and I think you will like her . What about Paul ?",
+        "Oh , Paul is very easy-going and friendly .",
+        "Could you get me the pepper from the cupboard ?",
+        "Yes , sure . Which cupboard is it in ?",
+        "It's in the small one beside the cooker ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "There is no pepper here .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5086,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Oh , Paul is very easy-going and friendly .",
+        "Could you get me the pepper from the cupboard ?",
+        "Yes , sure . Which cupboard is it in ?",
+        "It's in the small one beside the cooker .",
+        "There is no pepper here ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Oh , there Isn't ? Oh , no .",
+      "target_intent": "question",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 6967,
+      "utt_id": 5,
+      "topic": "finance",
+      "cxt": [
+        "Personal Loans , how may I help ?",
+        "I'm going to be studying overseas next year and I'd like some info about suitable loans . To be honest , I'm not even sure if I can get a loan .",
+        "Not a problem . We offer a Personal Loan for Studying Abroad for anyone who's studying overseas , regardless of the circumstances . Anyone is eligible to apply",
+        "Would I have to get my parents to guarantor the loan ?",
+        "Not exactly . Our policy states that the loange could be the person studying abroad , for example , you , or your direct relative or spouse ."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "commissive",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I see . What about age limitations ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6967,
+      "utt_id": 6,
+      "topic": "finance",
+      "cxt": [
+        "I'm going to be studying overseas next year and I'd like some info about suitable loans . To be honest , I'm not even sure if I can get a loan .",
+        "Not a problem . We offer a Personal Loan for Studying Abroad for anyone who's studying overseas , regardless of the circumstances . Anyone is eligible to apply",
+        "Would I have to get my parents to guarantor the loan ?",
+        "Not exactly . Our policy states that the loange could be the person studying abroad , for example , you , or your direct relative or spouse .",
+        "I see . What about age limitations ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "There are no age limitations as such just that the loange should be below 55 years and of course , old enough to get a loan , meaning over 18 years of age .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6967,
+      "utt_id": 7,
+      "topic": "finance",
+      "cxt": [
+        "Not a problem . We offer a Personal Loan for Studying Abroad for anyone who's studying overseas , regardless of the circumstances . Anyone is eligible to apply",
+        "Would I have to get my parents to guarantor the loan ?",
+        "Not exactly . Our policy states that the loange could be the person studying abroad , for example , you , or your direct relative or spouse .",
+        "I see . What about age limitations ?",
+        "There are no age limitations as such just that the loange should be below 55 years and of course , old enough to get a loan , meaning over 18 years of age ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "directive",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Got it ! I fit into that category very nicely . That's great ! I'll have a chat with my parents and come back . Thanks very much .",
+      "target_intent": "commissive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "who are you writing a letter to ?",
+        "I'm just responding to Sue's letter . Do you want to help ?",
+        "OK . I guess I could add something . Tell them that I send my love .",
+        "that's kind of boring . Don't you want to tell them anything else ?",
+        "well , maybe you could tell them about my promotion ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "directive",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "you've been promoted ? when did that happen ?",
+      "target_intent": "question",
+      "target_emotion": "surprise"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 6,
+      "topic": "relationship",
+      "cxt": [
+        "I'm just responding to Sue's letter . Do you want to help ?",
+        "OK . I guess I could add something . Tell them that I send my love .",
+        "that's kind of boring . Don't you want to tell them anything else ?",
+        "well , maybe you could tell them about my promotion .",
+        "you've been promoted ? when did that happen ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "question",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "surprise"
+      ],
+      "target_response": "just today . I guess I forgot to mention it .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 7,
+      "topic": "relationship",
+      "cxt": [
+        "OK . I guess I could add something . Tell them that I send my love .",
+        "that's kind of boring . Don't you want to tell them anything else ?",
+        "well , maybe you could tell them about my promotion .",
+        "you've been promoted ? when did that happen ?",
+        "just today . I guess I forgot to mention it ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion"
+      ],
+      "target_response": "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 8,
+      "topic": "relationship",
+      "cxt": [
+        "that's kind of boring . Don't you want to tell them anything else ?",
+        "well , maybe you could tell them about my promotion .",
+        "you've been promoted ? when did that happen ?",
+        "just today . I guess I forgot to mention it .",
+        "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !"
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "shouldn't we finish writing this letter first ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 9,
+      "topic": "relationship",
+      "cxt": [
+        "well , maybe you could tell them about my promotion .",
+        "you've been promoted ? when did that happen ?",
+        "just today . I guess I forgot to mention it .",
+        "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !",
+        "shouldn't we finish writing this letter first ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "inform",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "surprise",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "ah . That can wait . Your promotion is the best news I've heard in a long time !",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 10,
+      "topic": "relationship",
+      "cxt": [
+        "you've been promoted ? when did that happen ?",
+        "just today . I guess I forgot to mention it .",
+        "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !",
+        "shouldn't we finish writing this letter first ?",
+        "ah . That can wait . Your promotion is the best news I've heard in a long time !"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "surprise",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "it is good news , but it looked like you were almost finished . We might as well just sign off .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 11,
+      "topic": "relationship",
+      "cxt": [
+        "just today . I guess I forgot to mention it .",
+        "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !",
+        "shouldn't we finish writing this letter first ?",
+        "ah . That can wait . Your promotion is the best news I've heard in a long time !",
+        "it is good news , but it looked like you were almost finished . We might as well just sign off ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "directive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 12,
+      "topic": "relationship",
+      "cxt": [
+        "congratulations ! That's really exciting ! Let's get out a bottle of wine to celebrate !",
+        "shouldn't we finish writing this letter first ?",
+        "ah . That can wait . Your promotion is the best news I've heard in a long time !",
+        "it is good news , but it looked like you were almost finished . We might as well just sign off .",
+        "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "directive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I guess you can write that I'm looking forward to seeing them in June .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 13,
+      "topic": "relationship",
+      "cxt": [
+        "shouldn't we finish writing this letter first ?",
+        "ah . That can wait . Your promotion is the best news I've heard in a long time !",
+        "it is good news , but it looked like you were almost finished . We might as well just sign off .",
+        "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter .",
+        "I guess you can write that I'm looking forward to seeing them in June ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "that's thoughtful of you .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 14,
+      "topic": "relationship",
+      "cxt": [
+        "ah . That can wait . Your promotion is the best news I've heard in a long time !",
+        "it is good news , but it looked like you were almost finished . We might as well just sign off .",
+        "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter .",
+        "I guess you can write that I'm looking forward to seeing them in June .",
+        "that's thoughtful of you ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "and also thank them from the bottom of my heart for the Christmas package they sent us .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 15,
+      "topic": "relationship",
+      "cxt": [
+        "it is good news , but it looked like you were almost finished . We might as well just sign off .",
+        "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter .",
+        "I guess you can write that I'm looking forward to seeing them in June .",
+        "that's thoughtful of you .",
+        "and also thank them from the bottom of my heart for the Christmas package they sent us ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "that's right ! I almost forgot about that .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 16,
+      "topic": "relationship",
+      "cxt": [
+        "ok , you're right . I'll just tell them how round I am of you for getting a promotion and then I'll thank Sue for her kind letter .",
+        "I guess you can write that I'm looking forward to seeing them in June .",
+        "that's thoughtful of you .",
+        "and also thank them from the bottom of my heart for the Christmas package they sent us .",
+        "that's right ! I almost forgot about that ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "what would you do without me ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2636,
+      "utt_id": 17,
+      "topic": "relationship",
+      "cxt": [
+        "I guess you can write that I'm looking forward to seeing them in June .",
+        "that's thoughtful of you .",
+        "and also thank them from the bottom of my heart for the Christmas package they sent us .",
+        "that's right ! I almost forgot about that .",
+        "what would you do without me ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "we do balance each other out well . I guess we were really made for each other !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5105,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Good afternoon , ma'am . Can I help you find anything ?",
+        "No , thanks . I'm just looking .",
+        "We have a special on these skirts this week . Would you like to try one on ?",
+        "No , thank you . I don't need any skirts .",
+        "How about a blouse ? This one here is the latest fashion ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , thank you .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5105,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No , thanks . I'm just looking .",
+        "We have a special on these skirts this week . Would you like to try one on ?",
+        "No , thank you . I don't need any skirts .",
+        "How about a blouse ? This one here is the latest fashion .",
+        "No , thank you ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Why not try on this lovely pair of shorts ? I'm sure they'd look fabulous on you .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5105,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "We have a special on these skirts this week . Would you like to try one on ?",
+        "No , thank you . I don't need any skirts .",
+        "How about a blouse ? This one here is the latest fashion .",
+        "No , thank you .",
+        "Why not try on this lovely pair of shorts ? I'm sure they'd look fabulous on you ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No doubt . Look , I'm just browsing . If I need your help , I'll let you know .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 5105,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No , thank you . I don't need any skirts .",
+        "How about a blouse ? This one here is the latest fashion .",
+        "No , thank you .",
+        "Why not try on this lovely pair of shorts ? I'm sure they'd look fabulous on you .",
+        "No doubt . Look , I'm just browsing . If I need your help , I'll let you know ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "commissive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Take a look at this dress ! Don't you think it's perfect for you , ma'am ? Uh , where are you going , ma'am ? Ma'am ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What would you like for dessert ?",
+        "What do you have ?",
+        "I have apple pie , ice cream , chocolate cake and fruit cocktail .",
+        "Can I have apple pie with ice cream ?",
+        "Of course . I made apple pie this morning , so it ' s lovely and fresh ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?",
+      "target_intent": "directive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "What do you have ?",
+        "I have apple pie , ice cream , chocolate cake and fruit cocktail .",
+        "Can I have apple pie with ice cream ?",
+        "Of course . I made apple pie this morning , so it ' s lovely and fresh .",
+        "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "happiness"
+      ],
+      "target_response": "Sure . Can you get it yourself ? It ' s in the refrigerator .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I have apple pie , ice cream , chocolate cake and fruit cocktail .",
+        "Can I have apple pie with ice cream ?",
+        "Of course . I made apple pie this morning , so it ' s lovely and fresh .",
+        "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?",
+        "Sure . Can you get it yourself ? It ' s in the refrigerator ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Ok . Would you like a drink too ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Can I have apple pie with ice cream ?",
+        "Of course . I made apple pie this morning , so it ' s lovely and fresh .",
+        "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?",
+        "Sure . Can you get it yourself ? It ' s in the refrigerator .",
+        "Ok . Would you like a drink too ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes . I ' ll have an ice tea . You ' ll see it next to the lemonade .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Of course . I made apple pie this morning , so it ' s lovely and fresh .",
+        "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?",
+        "Sure . Can you get it yourself ? It ' s in the refrigerator .",
+        "Ok . Would you like a drink too ?",
+        "Yes . I ' ll have an ice tea . You ' ll see it next to the lemonade ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Are you having any dessert ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10512,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "I love you home made apple pie . It ' s delicious . Can I have another glass of lemonade as well ?",
+        "Sure . Can you get it yourself ? It ' s in the refrigerator .",
+        "Ok . Would you like a drink too ?",
+        "Yes . I ' ll have an ice tea . You ' ll see it next to the lemonade .",
+        "Are you having any dessert ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I ' ll have apple pie too , but without ice cream . I have to watch my weight .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 4411,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Mom , what are you doing ?",
+        "I'm clipping coupons .",
+        "Still clipping coupons ?",
+        "It's a good way to save money .",
+        "Saving money ? How much money can you save by those 1 or 2 dollar discount coupons ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "How much ? Last week I save $ 10 on food .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 4133,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "How long have you been in Taiwan ?",
+        "About 3 years , so I came here 2000 .",
+        "So , where did you grow up ?",
+        "Providence , Rhode Island . do you know it ?",
+        "I am not sure , where exactly is it ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Well , not so far from New York . So what about you ? Did you grow up here ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 4133,
+      "utt_id": 6,
+      "topic": "relationship",
+      "cxt": [
+        "About 3 years , so I came here 2000 .",
+        "So , where did you grow up ?",
+        "Providence , Rhode Island . do you know it ?",
+        "I am not sure , where exactly is it ?",
+        "Well , not so far from New York . So what about you ? Did you grow up here ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "question",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No , I was born in Gaoxiong , I only moved to Taipei after I graduated .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 219,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Did you see May today ?",
+        "Yes , but why does she have such a long face ?",
+        "I don't have the foggiest idea .",
+        "I thought she'd be happy .",
+        "Yeah , especially since she got a promotion recently ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I don't know . Maybe it ' s some kind of personal problem .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6329,
+      "utt_id": 5,
+      "topic": "tourism",
+      "cxt": [
+        "We will have a vacation next month . Why not have a tour ?",
+        "Good idea . Where shall we go ?",
+        "What about going to Xi'an ?",
+        "Don't you think it is too far ?",
+        "So what's your plan ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "question",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "What about going to Beijing ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6329,
+      "utt_id": 6,
+      "topic": "tourism",
+      "cxt": [
+        "Good idea . Where shall we go ?",
+        "What about going to Xi'an ?",
+        "Don't you think it is too far ?",
+        "So what's your plan ?",
+        "What about going to Beijing ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "commissive",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "So we'll compromise . We'll hit the Huangshan in Anti .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6329,
+      "utt_id": 7,
+      "topic": "tourism",
+      "cxt": [
+        "What about going to Xi'an ?",
+        "Don't you think it is too far ?",
+        "So what's your plan ?",
+        "What about going to Beijing ?",
+        "So we'll compromise . We'll hit the Huangshan in Anti ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "OK !",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 4757,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Then I'll have to borrow it .",
+        "Sure you can . But I'm only gonna keep it for a month .",
+        "Why ? It's in mint condition !",
+        "That's why I can profit from it !",
+        "You're going to re-sell it on eBay Taiwan ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "anger",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You bet . eBay Taiwan doesn't have it ! And bidding will start at two thousand NT . This baby's worth about six thousand to real tennis fans ...",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 4757,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Sure you can . But I'm only gonna keep it for a month .",
+        "Why ? It's in mint condition !",
+        "That's why I can profit from it !",
+        "You're going to re-sell it on eBay Taiwan ?",
+        "You bet . eBay Taiwan doesn't have it ! And bidding will start at two thousand NT . This baby's worth about six thousand to real tennis fans ..."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "anger",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I've created a monster ... you're a better bayer than me !",
+      "target_intent": "inform",
+      "target_emotion": "anger"
+    },
+    {
+      "dialog_id": 10517,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "My name is Sue . How do you do , Mr . Black ?",
+        "I'm glad to meet you , Sue . Please have a seat .",
+        "Thank you , sir .",
+        "We've looked over your letter and resume and I'm very satisfied with them . Today I want to invite you talk about insurance you're interested in .",
+        "Thank you . I wonder whether I can enjoy the life insurance and health insurance ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Of course . A two-week paid vacation a year , a five-day workweek .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10517,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "I'm glad to meet you , Sue . Please have a seat .",
+        "Thank you , sir .",
+        "We've looked over your letter and resume and I'm very satisfied with them . Today I want to invite you talk about insurance you're interested in .",
+        "Thank you . I wonder whether I can enjoy the life insurance and health insurance .",
+        "Of course . A two-week paid vacation a year , a five-day workweek ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Good . Anything else ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10517,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "Thank you , sir .",
+        "We've looked over your letter and resume and I'm very satisfied with them . Today I want to invite you talk about insurance you're interested in .",
+        "Thank you . I wonder whether I can enjoy the life insurance and health insurance .",
+        "Of course . A two-week paid vacation a year , a five-day workweek .",
+        "Good . Anything else ?"
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes . All the insurance will be linked with your work . We will issue an insurance policy .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10517,
+      "utt_id": 8,
+      "topic": "work",
+      "cxt": [
+        "We've looked over your letter and resume and I'm very satisfied with them . Today I want to invite you talk about insurance you're interested in .",
+        "Thank you . I wonder whether I can enjoy the life insurance and health insurance .",
+        "Of course . A two-week paid vacation a year , a five-day workweek .",
+        "Good . Anything else ?",
+        "Yes . All the insurance will be linked with your work . We will issue an insurance policy ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thank you , sir .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 3459,
+      "utt_id": 5,
+      "topic": "school_life",
+      "cxt": [
+        "Peter , have you finished your English composition ?",
+        "No . But I ' m working on it .",
+        "Class starts in twenty minutes . You have to turn it in at the beginning of class today .",
+        "I know . I know !",
+        "Do you think you can finish it on time ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Don ' t worry . I ' ll get it done very soon . I ' m almost finished .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 3459,
+      "utt_id": 6,
+      "topic": "school_life",
+      "cxt": [
+        "No . But I ' m working on it .",
+        "Class starts in twenty minutes . You have to turn it in at the beginning of class today .",
+        "I know . I know !",
+        "Do you think you can finish it on time ?",
+        "Don ' t worry . I ' ll get it done very soon . I ' m almost finished ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You ' d better hurry !",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 3459,
+      "utt_id": 7,
+      "topic": "school_life",
+      "cxt": [
+        "Class starts in twenty minutes . You have to turn it in at the beginning of class today .",
+        "I know . I know !",
+        "Do you think you can finish it on time ?",
+        "Don ' t worry . I ' ll get it done very soon . I ' m almost finished .",
+        "You ' d better hurry !"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Well , it would be a lot easier to finish if you stopped talking to me .",
+      "target_intent": "commissive",
+      "target_emotion": "disgust"
+    },
+    {
+      "dialog_id": 3459,
+      "utt_id": 8,
+      "topic": "school_life",
+      "cxt": [
+        "I know . I know !",
+        "Do you think you can finish it on time ?",
+        "Don ' t worry . I ' ll get it done very soon . I ' m almost finished .",
+        "You ' d better hurry !",
+        "Well , it would be a lot easier to finish if you stopped talking to me ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "disgust"
+      ],
+      "target_response": "Sorry !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Are you being served , madam ?",
+        "No . Um , do you carry any padded coat ?",
+        "Yes , what size is in your mind ?",
+        "Small size .",
+        "Any particular brand ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No . Um , do you carry any padded coat ?",
+        "Yes , what size is in your mind ?",
+        "Small size .",
+        "Any particular brand ?",
+        "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "How about this one ? It ' s the latest design , simple but elegant .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 7,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Yes , what size is in your mind ?",
+        "Small size .",
+        "Any particular brand ?",
+        "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert .",
+        "How about this one ? It ' s the latest design , simple but elegant ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "directive",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Looks nice . How much do you charge ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 8,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Small size .",
+        "Any particular brand ?",
+        "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert .",
+        "How about this one ? It ' s the latest design , simple but elegant .",
+        "Looks nice . How much do you charge ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "directive",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "$ 100 .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 9,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Any particular brand ?",
+        "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert .",
+        "How about this one ? It ' s the latest design , simple but elegant .",
+        "Looks nice . How much do you charge ?",
+        "$ 100 ."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "That ' s sheer robbery . I ' m sure you can do better than that .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 10,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Whatever . You know , I ' m thinking of a gift for my mother . It ' s her 60 birthday next Friday . Could you give me some advice ? You are the expert .",
+        "How about this one ? It ' s the latest design , simple but elegant .",
+        "Looks nice . How much do you charge ?",
+        "$ 100 .",
+        "That ' s sheer robbery . I ' m sure you can do better than that ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "How much would you say ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6007,
+      "utt_id": 11,
+      "topic": "ordinary_life",
+      "cxt": [
+        "How about this one ? It ' s the latest design , simple but elegant .",
+        "Looks nice . How much do you charge ?",
+        "$ 100 .",
+        "That ' s sheer robbery . I ' m sure you can do better than that .",
+        "How much would you say ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "$ 80 .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "Good morning , Miss Monica . Nice to meet you again !",
+        "Good morning , Mr . Thomas , it is nice to see you too .",
+        "After the internal discussion , we have all agreed that you are the most suitable person for this position among all the candidates . So , today let ' s talk about your expected salary and social benefits . What is your expected salary ?",
+        "I ' Ve worked in the field for more than 4 years . Depend on my work qualifications and experience , I would like to have 5000 Yuan to start .",
+        "The basic salary for this position in our company would be 4800 Yuan to start with increases giving according to your performance ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "It is a bit lower than I expected . But I can accept that . What are the working hours ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "Good morning , Mr . Thomas , it is nice to see you too .",
+        "After the internal discussion , we have all agreed that you are the most suitable person for this position among all the candidates . So , today let ' s talk about your expected salary and social benefits . What is your expected salary ?",
+        "I ' Ve worked in the field for more than 4 years . Depend on my work qualifications and experience , I would like to have 5000 Yuan to start .",
+        "The basic salary for this position in our company would be 4800 Yuan to start with increases giving according to your performance .",
+        "It is a bit lower than I expected . But I can accept that . What are the working hours ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "directive",
+        "directive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "40 hours a week , Monday to Friday , 9 AM to 5 PM with one hour lunch break every day ..",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "After the internal discussion , we have all agreed that you are the most suitable person for this position among all the candidates . So , today let ' s talk about your expected salary and social benefits . What is your expected salary ?",
+        "I ' Ve worked in the field for more than 4 years . Depend on my work qualifications and experience , I would like to have 5000 Yuan to start .",
+        "The basic salary for this position in our company would be 4800 Yuan to start with increases giving according to your performance .",
+        "It is a bit lower than I expected . But I can accept that . What are the working hours ?",
+        "40 hours a week , Monday to Friday , 9 AM to 5 PM with one hour lunch break every day .."
+      ],
+      "cxt_intents": [
+        "question",
+        "directive",
+        "directive",
+        "directive",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Do I have to work on weekend ? If so , how do you pay for the overtime ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 8,
+      "topic": "work",
+      "cxt": [
+        "I ' Ve worked in the field for more than 4 years . Depend on my work qualifications and experience , I would like to have 5000 Yuan to start .",
+        "The basic salary for this position in our company would be 4800 Yuan to start with increases giving according to your performance .",
+        "It is a bit lower than I expected . But I can accept that . What are the working hours ?",
+        "40 hours a week , Monday to Friday , 9 AM to 5 PM with one hour lunch break every day ..",
+        "Do I have to work on weekend ? If so , how do you pay for the overtime ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "directive",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "We do expect overtime work when it is necessary , but we pay twice of the work hour for working on weekends and three times for working on national holidays like Spring Festival and the Mid-Autumn Day .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 9,
+      "topic": "work",
+      "cxt": [
+        "The basic salary for this position in our company would be 4800 Yuan to start with increases giving according to your performance .",
+        "It is a bit lower than I expected . But I can accept that . What are the working hours ?",
+        "40 hours a week , Monday to Friday , 9 AM to 5 PM with one hour lunch break every day ..",
+        "Do I have to work on weekend ? If so , how do you pay for the overtime ?",
+        "We do expect overtime work when it is necessary , but we pay twice of the work hour for working on weekends and three times for working on national holidays like Spring Festival and the Mid-Autumn Day ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "directive",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Is there probation ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 9412,
+      "utt_id": 10,
+      "topic": "work",
+      "cxt": [
+        "It is a bit lower than I expected . But I can accept that . What are the working hours ?",
+        "40 hours a week , Monday to Friday , 9 AM to 5 PM with one hour lunch break every day ..",
+        "Do I have to work on weekend ? If so , how do you pay for the overtime ?",
+        "We do expect overtime work when it is necessary , but we pay twice of the work hour for working on weekends and three times for working on national holidays like Spring Festival and the Mid-Autumn Day .",
+        "Is there probation ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "inform",
+        "question",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No probation is involved . If you feel good , you can start next week .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2665,
+      "utt_id": 5,
+      "topic": "school_life",
+      "cxt": [
+        "It's the 17th week now , isn't it ?",
+        "Yes , it is .",
+        "Oh , the final exam is coming soon . I feel a little bit nervous .",
+        "Take it easy . There is still one more week left before the exam begins . Have you prepared for it well ?",
+        "No , I haven't began my preparations ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "fear",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Then shall we make preparations together ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2665,
+      "utt_id": 6,
+      "topic": "school_life",
+      "cxt": [
+        "Yes , it is .",
+        "Oh , the final exam is coming soon . I feel a little bit nervous .",
+        "Take it easy . There is still one more week left before the exam begins . Have you prepared for it well ?",
+        "No , I haven't began my preparations .",
+        "Then shall we make preparations together ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "fear",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Great . You can help me a lot with English .",
+      "target_intent": "commissive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 2665,
+      "utt_id": 7,
+      "topic": "school_life",
+      "cxt": [
+        "Oh , the final exam is coming soon . I feel a little bit nervous .",
+        "Take it easy . There is still one more week left before the exam begins . Have you prepared for it well ?",
+        "No , I haven't began my preparations .",
+        "Then shall we make preparations together ?",
+        "Great . You can help me a lot with English ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "fear",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "All right . But I am very poor at math . Would you like to help me with my math ?",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2665,
+      "utt_id": 8,
+      "topic": "school_life",
+      "cxt": [
+        "Take it easy . There is still one more week left before the exam begins . Have you prepared for it well ?",
+        "No , I haven't began my preparations .",
+        "Then shall we make preparations together ?",
+        "Great . You can help me a lot with English .",
+        "All right . But I am very poor at math . Would you like to help me with my math ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "No problem .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 5,
+      "topic": "tourism",
+      "cxt": [
+        "Can I help you ?",
+        "Is This where I pay the airport tax ?",
+        "Yes , sir . Just as the sign says . How many ?",
+        "I'm sorry , but I've never done this before . How many what ?",
+        "How many people are you paying the tax for ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "question",
+        "question",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "My wife and me . The two of us .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 6,
+      "topic": "tourism",
+      "cxt": [
+        "Is This where I pay the airport tax ?",
+        "Yes , sir . Just as the sign says . How many ?",
+        "I'm sorry , but I've never done this before . How many what ?",
+        "How many people are you paying the tax for ?",
+        "My wife and me . The two of us ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "question",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "100 yuan each , so you owe me 200 yuan .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 7,
+      "topic": "tourism",
+      "cxt": [
+        "Yes , sir . Just as the sign says . How many ?",
+        "I'm sorry , but I've never done this before . How many what ?",
+        "How many people are you paying the tax for ?",
+        "My wife and me . The two of us .",
+        "100 yuan each , so you owe me 200 yuan ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Oh , OK . Here's 200 yuan .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 8,
+      "topic": "tourism",
+      "cxt": [
+        "I'm sorry , but I've never done this before . How many what ?",
+        "How many people are you paying the tax for ?",
+        "My wife and me . The two of us .",
+        "100 yuan each , so you owe me 200 yuan .",
+        "Oh , OK . Here's 200 yuan ."
+      ],
+      "cxt_intents": [
+        "question",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Here are your two receipts .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 9,
+      "topic": "tourism",
+      "cxt": [
+        "How many people are you paying the tax for ?",
+        "My wife and me . The two of us .",
+        "100 yuan each , so you owe me 200 yuan .",
+        "Oh , OK . Here's 200 yuan .",
+        "Here are your two receipts ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "directive",
+        "commissive",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Thanks . What shall I do then ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 10,
+      "topic": "tourism",
+      "cxt": [
+        "My wife and me . The two of us .",
+        "100 yuan each , so you owe me 200 yuan .",
+        "Oh , OK . Here's 200 yuan .",
+        "Here are your two receipts .",
+        "Thanks . What shall I do then ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Just give these receipts to the lady at the door to immigration . Don't worry , she'll ask for them from you .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 11,
+      "topic": "tourism",
+      "cxt": [
+        "100 yuan each , so you owe me 200 yuan .",
+        "Oh , OK . Here's 200 yuan .",
+        "Here are your two receipts .",
+        "Thanks . What shall I do then ?",
+        "Just give these receipts to the lady at the door to immigration . Don't worry , she'll ask for them from you ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "inform",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Oh , I guess I'm a little confused .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 12,
+      "topic": "tourism",
+      "cxt": [
+        "Oh , OK . Here's 200 yuan .",
+        "Here are your two receipts .",
+        "Thanks . What shall I do then ?",
+        "Just give these receipts to the lady at the door to immigration . Don't worry , she'll ask for them from you .",
+        "Oh , I guess I'm a little confused ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "We are all the same the first time we travel overseas . You guys have a nice trip .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 6919,
+      "utt_id": 13,
+      "topic": "tourism",
+      "cxt": [
+        "Here are your two receipts .",
+        "Thanks . What shall I do then ?",
+        "Just give these receipts to the lady at the door to immigration . Don't worry , she'll ask for them from you .",
+        "Oh , I guess I'm a little confused .",
+        "We are all the same the first time we travel overseas . You guys have a nice trip ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "Thanks a lot .",
+      "target_intent": "inform",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 10367,
+      "utt_id": 5,
+      "topic": "health",
+      "cxt": [
+        "Hello , what can I do for you today ?",
+        "Well , I ' Ve got a terrible stomach-ache and I keep needing the toilet .",
+        "I see . Well , with those symptoms maybe you ' Ve got food poisoning . What have you eaten recently ?",
+        "Well , I went to a seafood restaurant last night and I ate lots of oysters .",
+        "Hmm . It may be those then , especially if they were raw . Well , I ' ll give you these tablets and you should feel fine by tomorrow ."
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Ok . Thank you very much .",
+      "target_intent": "commissive",
+      "target_emotion": "happiness"
+    },
+    {
+      "dialog_id": 7185,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "Okay , now I ' d like to find out more about your last job . I see you spent almost four years at the London Weekly , is that right ?",
+        "Yes , that ' s right . To be honest , the first year was quite tough for me . I was really just treated more like an intern . I didn ' t have many responsibilities and I found it quite frustrating .",
+        "So , what changed ?",
+        "Well slowly but surely I proved myself , and the new editor liked me so he promoted me to features writer .",
+        "Wow , a real step up !"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Yes , I was responsible for restaurant and food reviews mostly . I spent 3 years in that position , but to be honest it wasn ' t an area of journalism I wanted to stay in long-term .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7185,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "Yes , that ' s right . To be honest , the first year was quite tough for me . I was really just treated more like an intern . I didn ' t have many responsibilities and I found it quite frustrating .",
+        "So , what changed ?",
+        "Well slowly but surely I proved myself , and the new editor liked me so he promoted me to features writer .",
+        "Wow , a real step up !",
+        "Yes , I was responsible for restaurant and food reviews mostly . I spent 3 years in that position , but to be honest it wasn ' t an area of journalism I wanted to stay in long-term ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "inform",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I see , so why did you decide to leave finally ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 7185,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "So , what changed ?",
+        "Well slowly but surely I proved myself , and the new editor liked me so he promoted me to features writer .",
+        "Wow , a real step up !",
+        "Yes , I was responsible for restaurant and food reviews mostly . I spent 3 years in that position , but to be honest it wasn ' t an area of journalism I wanted to stay in long-term .",
+        "I see , so why did you decide to leave finally ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "inform",
+        "inform",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "I just felt that the paper couldn ' t offer me any new opportunities . I really needed a more challenging role to be honest .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 393,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "Good morning , Jim !",
+        "Good morning , Emma ! A lovely day , isn't it ?",
+        "Yes , it is . The sun is shining . There is no wind , only a pleasant breeze .",
+        "It is the best season for a picnic right now . Have you decided the place for your picnic ?",
+        "We have decided to go to the park this Sunday . Would you like to go with us if you have not decided yet ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "inform",
+        "question",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "What did the whetherman say ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 393,
+      "utt_id": 6,
+      "topic": "relationship",
+      "cxt": [
+        "Good morning , Emma ! A lovely day , isn't it ?",
+        "Yes , it is . The sun is shining . There is no wind , only a pleasant breeze .",
+        "It is the best season for a picnic right now . Have you decided the place for your picnic ?",
+        "We have decided to go to the park this Sunday . Would you like to go with us if you have not decided yet ?",
+        "What did the whetherman say ?"
+      ],
+      "cxt_intents": [
+        "question",
+        "inform",
+        "question",
+        "directive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "He ' s predicting clear skies .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 393,
+      "utt_id": 7,
+      "topic": "relationship",
+      "cxt": [
+        "Yes , it is . The sun is shining . There is no wind , only a pleasant breeze .",
+        "It is the best season for a picnic right now . Have you decided the place for your picnic ?",
+        "We have decided to go to the park this Sunday . Would you like to go with us if you have not decided yet ?",
+        "What did the whetherman say ?",
+        "He ' s predicting clear skies ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "question",
+        "directive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "Well , I will think it over .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10743,
+      "utt_id": 5,
+      "topic": "work",
+      "cxt": [
+        "Hello , this is Lucy from ABC Company .",
+        "Hello , Lucy .",
+        "I ' m calling to see if you have made your decision . You are the right person we are seeking for .",
+        "Yes , I have decided to work with your company .",
+        "Good news for us . When can you start to work ?"
+      ],
+      "cxt_intents": [
+        "inform",
+        "inform",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness"
+      ],
+      "target_response": "It ' s my honor to be one member of your company . I ' d like to begin to work any time as you like .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10743,
+      "utt_id": 6,
+      "topic": "work",
+      "cxt": [
+        "Hello , Lucy .",
+        "I ' m calling to see if you have made your decision . You are the right person we are seeking for .",
+        "Yes , I have decided to work with your company .",
+        "Good news for us . When can you start to work ?",
+        "It ' s my honor to be one member of your company . I ' d like to begin to work any time as you like ."
+      ],
+      "cxt_intents": [
+        "inform",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion"
+      ],
+      "target_response": "Ok , please come to my office at 9 AM next Monday . I will introduce you to our boss .",
+      "target_intent": "directive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10743,
+      "utt_id": 7,
+      "topic": "work",
+      "cxt": [
+        "I ' m calling to see if you have made your decision . You are the right person we are seeking for .",
+        "Yes , I have decided to work with your company .",
+        "Good news for us . When can you start to work ?",
+        "It ' s my honor to be one member of your company . I ' d like to begin to work any time as you like .",
+        "Ok , please come to my office at 9 AM next Monday . I will introduce you to our boss ."
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "question",
+        "inform",
+        "directive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "No problem . Thank you for calling me .",
+      "target_intent": "commissive",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10743,
+      "utt_id": 8,
+      "topic": "work",
+      "cxt": [
+        "Yes , I have decided to work with your company .",
+        "Good news for us . When can you start to work ?",
+        "It ' s my honor to be one member of your company . I ' d like to begin to work any time as you like .",
+        "Ok , please come to my office at 9 AM next Monday . I will introduce you to our boss .",
+        "No problem . Thank you for calling me ."
+      ],
+      "cxt_intents": [
+        "commissive",
+        "question",
+        "inform",
+        "directive",
+        "commissive"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "happiness",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You ' re welcome .",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10310,
+      "utt_id": 5,
+      "topic": "ordinary_life",
+      "cxt": [
+        "Here ! Here ! Use my card !",
+        "No , you don't ! I should treat my new brother-in-law !",
+        "Not on your life ! I'm the best man , so I pay !",
+        "OK , OK . On one condition .",
+        "What's that ?"
+      ],
+      "cxt_intents": [
+        "directive",
+        "commissive",
+        "directive",
+        "commissive",
+        "question"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You come back here with me tomorrow , and it's my treat !",
+      "target_intent": "inform",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 10310,
+      "utt_id": 6,
+      "topic": "ordinary_life",
+      "cxt": [
+        "No , you don't ! I should treat my new brother-in-law !",
+        "Not on your life ! I'm the best man , so I pay !",
+        "OK , OK . On one condition .",
+        "What's that ?",
+        "You come back here with me tomorrow , and it's my treat !"
+      ],
+      "cxt_intents": [
+        "commissive",
+        "directive",
+        "commissive",
+        "question",
+        "inform"
+      ],
+      "cxt_emotions": [
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion",
+        "no_emotion"
+      ],
+      "target_response": "You've got it ! But are we coming back for the music , or for the fruit ?",
+      "target_intent": "question",
+      "target_emotion": "no_emotion"
+    },
+    {
+      "dialog_id": 2398,
+      "utt_id": 5,
+      "topic": "relationship",
+      "cxt": [
+        "I am not sure what to do during the holidays , any suggestions ?",
+        "Well , going to a cinema , visiting the galleries , ex
